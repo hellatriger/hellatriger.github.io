@@ -1,0 +1,250 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+
+    .benefits-item-title {
+        line-height: 17px;
+    }
+
+    .cost-title {
+        margin-left: 151px;
+    }
+
+    .benefits-title:after {
+        left: 242px;
+    }
+
+    .benefits-title:before {
+        left: 209px;
+    }
+
+    .item-discription {
+        font-size: 14px;
+    }
+
+    .arrow:after {
+        visibility: hidden;
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width: 991px) {
+        .header-phone-link {
+            font-size: 12px;
+        }
+
+        .first-screen {
+            background-position: top center;
+        }
+
+        .hidden-xs {
+            display: none;
+        }
+
+        .call-img {
+            display: none;
+        }
+
+        .comments-item {
+            margin-bottom: 10px;
+        }
+
+        .with-image:before {
+            left: -22px;
+        }
+
+
+        .comments-title:after {
+            left: -4px;
+        }
+
+        .comments-title:before {
+            left: -42px;
+        }
+
+        .arrow:after {
+            visibility: hidden;
+        }
+
+        .footer-phone-link {
+            font-size: 13px;
+        }
+
+        .comments-btn-item {
+            display: none;
+            visibility: hidden;
+        }
+
+        .comments-btn {
+            visibility: hidden;
+            display: none;
+        }
+
+        .benefits-title:after {
+            left: 144px;
+        }
+
+        .benefits-title:before {
+            left: 98px;
+        }
+
+        .steps-title {
+            left: -24px;
+        }
+
+        .cost-title {
+            margin-left: 107px;
+            font-size: 22px;
+        }
+
+        .sell-item {
+            margin-bottom: 15px;
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width: 767px) {
+        .top-part {
+            text-align: center;
+        }
+
+        .footer-logo {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 13px;
+        }
+
+        .footer-title:before {
+            left: 114px;
+        }
+
+        .footer-logo:after {
+            left: 27px;
+        }
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width: 575px) {
+        .hidden-xs {
+            display: none;
+        }
+
+        .cost-title {
+            margin-left: 0px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .comments-title {
+            font-size: 17px;
+        }
+
+        .steps-title {
+            font-size: 16px;
+        }
+
+        .call-text-1 {
+            line-height: 28px;
+        }
+
+        .footer-adress {
+            text-align: center;
+        }
+
+        .footer-adress-item:after {
+            visibility: hidden;
+        }
+
+        .footer-phone {
+            text-align: center;
+            margin-right: 66px;
+            margin-top: 20px;
+        }
+
+        .steps-item {
+            margin-bottom: 10px;
+        }
+
+        .sell-title {
+            font-size: 24px;
+        }
+
+        .sell-title:after {
+            left: 20px;
+        }
+
+        .sell-title:before {
+            left: -2px;
+        }
+
+    }
+
+    /* Iphone X */
+    @media only screen and (max-width: 375px) {
+        .benefits-title:before {
+            left: 50px;
+            top: -5px;
+        }
+
+        .benefits-title {
+            font-size: 24px;
+            line-height: 27px;
+        }
+
+        .steps-title {
+            font-size: 13px;
+        }
+
+        .sell-title {
+            font-size: 18px;
+        }
+
+        .call-title {
+            font-size: 25px;
+        }
+
+        .footer-title:before {
+            left: 88px;
+        }
+        .footer-menu{
+            margin-bottom: 10px;
+        }
+
+        .benefits-title:after {
+            left: 110px;
+            top: 56px;
+
+            /* Custom, iPhone Retina */
+            @media only screen and (width: 320px) {
+                /**/
+            }
+
+            /*==========  Mobile First  ==========*/
+            /* Custom, iPhone Retina */
+            @media only screen and (min-width: 320px) {
+                /**/
+            }
+
+            /* Iphone X */
+            @media only screen and (min-width: 376px) {
+                /**/
+            }
+
+            /* Extra Small Devices, Phones */
+            @media only screen and (min-width: 576px) {
+                /**/
+            }
+
+            /* Small Devices, Tablets */
+            @media only screen and (min-width: 768px) {
+                /**/
+            }
+
+            /* Medium Devices, Desktops */
+            @media only screen and (min-width: 992px) {
+                /**/
+            }
+
+            /* Large Devices, Wide Screens */
+            @media only screen and (min-width: 1200px) {
+                /**/
+            }
