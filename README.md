@@ -1,2 +1,5 @@
 # hellatriger.github.io
-Hosting
+ 
+ Technologies: HTML, CSS, BootStrap 4
+ 
+ Thank you!
