@@ -1,0 +1,339 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+    .xl-hidden {
+        display: none;
+    }
+
+    .form:before {
+        display: none;
+    }
+
+    .form:after {
+        display: none;
+    }
+
+    .main-header {
+        padding-top: 25px;
+    }
+
+    .call-btn {
+        padding-left: 26px;
+    }
+
+    .teacher-item {
+        bottom: -22px;
+    }
+
+    .teacher-name {
+        font-size: 17px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+    .logo-link {
+        margin-left: -10px;
+    }
+
+    .main-header {
+        background-position: top center;
+    }
+
+    .header-title,
+    .header-course {
+        text-align: center;
+    }
+
+    .form {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .footer-social:after,
+    .footer-social:before {
+        display: none;
+    }
+
+    .adress-desc:after {
+        left: 135px;
+    }
+
+    .adress-desc:before {
+        left: 113px;
+    }
+
+    .call-btn {
+        font-size: 13px;
+    }
+
+    .course-item-title {
+        font-size: 32px;
+    }
+
+    .course-desc {
+        font-size: 16px;
+    }
+
+    .teacher-name {
+        font-size: 16px;
+    }
+
+    .teacher {
+        margin-bottom: 5px;
+    }
+
+    .teacher-item {
+        bottom: -188px;
+    }
+
+    .review-item {
+        margin-bottom: 5px;
+        height: 240px;
+    }
+
+    .reviews-title {
+        font-size: 38px;
+        padding-bottom: 38px;
+    }
+
+    .main-menu-link {
+        font-size: 14px;
+    }
+
+    .adress-desc {
+        font-size: 16px;
+    }
+
+    .call-btn {
+        margin-left: 0;
+    }
+
+    .call-field {
+        margin-bottom: 3px;
+    }
+
+    .second-row {
+        margin-top: 0;
+    }
+
+    .call-field {
+        margin-right: 0;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+    .logo-link {
+        margin-left: -10px;
+    }
+
+    .main-menu {
+        margin-left: 0;
+    }
+
+    .call-btn {
+        font-size: 13px;
+        margin-left: 0;
+    }
+
+    .adress-desc {
+        font-size: 16px;
+    }
+
+    .adress-desc:after {
+        left: 48px;
+    }
+
+    .adress-desc:before {
+        left: 24px;
+    }
+
+    .teacher-name {
+        font-size: 13px;
+    }
+
+    .teacher-item {
+        bottom: -218px;
+    }
+
+    .main-menu-link {
+        font-size: 15px;
+    }
+
+    .call-field,
+    .teacher {
+        margin-bottom: 10px;
+    }
+
+    .course-item {
+        margin-bottom: 2px;
+    }
+
+    .second-row {
+        margin-top: 0;
+    }
+
+    .week-desc {
+        font-size: 15px;
+    }
+
+    .adress-desc {
+        font-size: 14px;
+    }
+
+    .main-menu-link {
+        font-size: 14px;
+    }
+
+    .md-hidden {
+        display: none;
+    }
+
+    .main-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 575px) {
+    .header-title {
+        font-size: 40px;
+        line-height: 70px;
+        margin-left: 0;
+    }
+
+    .review-desc {
+        font-size: 13px;
+    }
+
+    .adress-desc {
+        font-size: 11px;
+        padding-left: 0;
+    }
+
+    .adress-desc:after {
+        left: 204px;
+    }
+
+    .adress-desc:before {
+        left: 187px;
+    }
+
+    .review-item {
+        height: auto;
+    }
+
+    .adress-desc:after,
+    .adress-desc:before {
+        display: none;
+    }
+
+    .header-course {
+        margin-left: 0;
+        font-size: 35px;
+    }
+
+    .week-item-2 {
+        margin-left: 0;
+    }
+
+    .third-item {
+        padding-left: 0;
+    }
+
+    .week-item-4 {
+        margin-left: 0;
+    }
+
+    .callback-title {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 885px) {
+    .teacher-item {
+        bottom: -158px;
+    }
+
+}
+
+@media only screen and (max-width: 953px) {
+    .teacher-item {
+        bottom: -158px;
+    }
+}
+
+@media only screen and (max-width: 760px) {}
+
+/* Iphone X */
+@media only screen and (max-width: 375px) {
+    .adress-title {
+        font-size: 27px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (width: 320px) {
+    .header-title {
+        font-size: 35px;
+    }
+
+    .adress-title {
+        font-size: 24px;
+    }
+
+    .first,
+    .title-item {
+        margin-left: 0;
+    }
+
+    .programm-title {
+        font-size: 30px;
+    }
+
+    .group,
+    .like,
+    .user,
+    .handshake {
+        display: none;
+    }
+
+    .course-item {
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+    /**/
+}
+
+/* Iphone X */
+@media only screen and (min-width: 376px) {
+    /**/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 575px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+    /**/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+    /**/
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+    /**/
+}
