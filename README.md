@@ -1,6 +1,6 @@
 # hellatriger.github.io
- Responsive website for company.
+ Responsive website's
  
- Technologies: HTML, CSS, BootStrap 4
+ HTML, CSS, BootStrap 4, Sass, Gulp, Js
  
  Thank you! :)
